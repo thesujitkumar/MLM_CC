@@ -22,8 +22,11 @@
 **For Cascade Classification Models:**
 1. Switch to Cascade_Classification/ Folder
 2. First, Generate Summary of News Body.
+   
      (i) Pegasus:  python Pegasus_news_body_summary.py
+   
      (ii) T5:      python T5_news_body_summary.py
+   
      (iii) Gemini: python gemini_news_body_summary.py
 4. Run python CC_RoBERTa.py
 
